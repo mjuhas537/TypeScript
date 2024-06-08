@@ -1,0 +1,26 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "npx tsc",
+    "startNode":"node build/app.js",
+    "start": "npx tsc && node build/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjuhas537/TypeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjuhas537/TypeScript/issues"
+  },
+  "homepage": "https://github.com/mjuhas537/TypeScript#readme",
+  "dependencies": {
+    "@types/node": "^20.14.2",
+    "typescript": "^5.4.5"
+  }
+}
